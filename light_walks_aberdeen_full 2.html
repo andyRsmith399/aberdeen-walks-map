@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dba53caf9c40f5134cbd9207c2d7a7fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dba53caf9c40f5134cbd9207c2d7a7fe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dba53caf9c40f5134cbd9207c2d7a7fe = L.map(
+                "map_dba53caf9c40f5134cbd9207c2d7a7fe",
+                {
+                    center: [57.1497, -2.0943],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e15e6bf2b5831cb82ea205cd2de1bb68 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var marker_d91459b193774e48dcc89e913d8ccc95 = L.marker(
+                [57.1341, -2.1083],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_c0e9a962873fcc1a63273d8e1cf0ea7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d91459b193774e48dcc89e913d8ccc95.setIcon(icon_c0e9a962873fcc1a63273d8e1cf0ea7f);
+        
+    
+        var popup_505453623c563bd0dd2041557c8f9497 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_848872e489372b1b7044a34eb36443d8 = $(`<div id="html_848872e489372b1b7044a34eb36443d8" style="width: 100.0%; height: 100.0%;"><b>Duthie Park</b><br>Gardens, Winter Gardens, flat paths</div>`)[0];
+            popup_505453623c563bd0dd2041557c8f9497.setContent(html_848872e489372b1b7044a34eb36443d8);
+        
+
+        marker_d91459b193774e48dcc89e913d8ccc95.bindPopup(popup_505453623c563bd0dd2041557c8f9497)
+        ;
+
+        
+    
+    
+            var marker_1acffc69d675578b8d060f5f214bec43 = L.marker(
+                [57.175, -2.1007],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_ed1e96b15dda820dfa9846f9ada45501 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1acffc69d675578b8d060f5f214bec43.setIcon(icon_ed1e96b15dda820dfa9846f9ada45501);
+        
+    
+        var popup_cf0a59906587741090af753d1349dcb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e133c30e110ed75a5dc2340ca844bd0 = $(`<div id="html_2e133c30e110ed75a5dc2340ca844bd0" style="width: 100.0%; height: 100.0%;"><b>Seaton Park</b><br>Riverside walk, Brig o’ Balgownie</div>`)[0];
+            popup_cf0a59906587741090af753d1349dcb2.setContent(html_2e133c30e110ed75a5dc2340ca844bd0);
+        
+
+        marker_1acffc69d675578b8d060f5f214bec43.bindPopup(popup_cf0a59906587741090af753d1349dcb2)
+        ;
+
+        
+    
+    
+            var marker_f38938f0a2c1a0b5105299569c090ad8 = L.marker(
+                [57.1543, -2.126],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_5025079703bd7c90c69fc8642b90fc65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f38938f0a2c1a0b5105299569c090ad8.setIcon(icon_5025079703bd7c90c69fc8642b90fc65);
+        
+    
+        var popup_a13d9370dcdc97276461f95c207e2013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05d03b5e11a45d68096d11f881fc9207 = $(`<div id="html_05d03b5e11a45d68096d11f881fc9207" style="width: 100.0%; height: 100.0%;"><b>Westburn Park</b><br>Small park, ponds, cycle track</div>`)[0];
+            popup_a13d9370dcdc97276461f95c207e2013.setContent(html_05d03b5e11a45d68096d11f881fc9207);
+        
+
+        marker_f38938f0a2c1a0b5105299569c090ad8.bindPopup(popup_a13d9370dcdc97276461f95c207e2013)
+        ;
+
+        
+    
+    
+            var marker_99ccae1d86e2f67850ec4288dea9ffe5 = L.marker(
+                [57.148, -2.174],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_2f9a6203b671199382ab0f495b081fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99ccae1d86e2f67850ec4288dea9ffe5.setIcon(icon_2f9a6203b671199382ab0f495b081fb9);
+        
+    
+        var popup_44217733c41b3e14f67ea15a8f448e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1e293c3fa9ed1bdd0c70f9102400da8 = $(`<div id="html_a1e293c3fa9ed1bdd0c70f9102400da8" style="width: 100.0%; height: 100.0%;"><b>Hazlehead Park</b><br>Ornamental gardens, flat sections</div>`)[0];
+            popup_44217733c41b3e14f67ea15a8f448e0b.setContent(html_a1e293c3fa9ed1bdd0c70f9102400da8);
+        
+
+        marker_99ccae1d86e2f67850ec4288dea9ffe5.bindPopup(popup_44217733c41b3e14f67ea15a8f448e0b)
+        ;
+
+        
+    
+    
+            var marker_1b099de4ebfcf8738d393fae1ffb3b60 = L.marker(
+                [57.1508, -2.0786],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_e17de4ef5a573ad42a373663b92a5cce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b099de4ebfcf8738d393fae1ffb3b60.setIcon(icon_e17de4ef5a573ad42a373663b92a5cce);
+        
+    
+        var popup_ba640cd60c178d967c7bc0c46739b52d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b21b334209cc1e9485b3eec6d27de77 = $(`<div id="html_2b21b334209cc1e9485b3eec6d27de77" style="width: 100.0%; height: 100.0%;"><b>Aberdeen Beach Promenade</b><br>Flat seafront walkway</div>`)[0];
+            popup_ba640cd60c178d967c7bc0c46739b52d.setContent(html_2b21b334209cc1e9485b3eec6d27de77);
+        
+
+        marker_1b099de4ebfcf8738d393fae1ffb3b60.bindPopup(popup_ba640cd60c178d967c7bc0c46739b52d)
+        ;
+
+        
+    
+    
+            var marker_935df3746c8af1f20dabd19b883e40fc = L.marker(
+                [57.1445, -2.078],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_dae6b9cf2f11023fc82a3bba2251c0dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_935df3746c8af1f20dabd19b883e40fc.setIcon(icon_dae6b9cf2f11023fc82a3bba2251c0dd);
+        
+    
+        var popup_c0bb5796d1375bf569591b715b1e0aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef6e8ab3b2e01e59f86c036f10df05f0 = $(`<div id="html_ef6e8ab3b2e01e59f86c036f10df05f0" style="width: 100.0%; height: 100.0%;"><b>Footdee Village</b><br>Historic fishing cottages</div>`)[0];
+            popup_c0bb5796d1375bf569591b715b1e0aed.setContent(html_ef6e8ab3b2e01e59f86c036f10df05f0);
+        
+
+        marker_935df3746c8af1f20dabd19b883e40fc.bindPopup(popup_c0bb5796d1375bf569591b715b1e0aed)
+        ;
+
+        
+    
+    
+            var marker_190f0a885e0c2bb12fb56751f35b5ad7 = L.marker(
+                [57.1339, -2.1085],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_f5915e558766d95ab1cc9a7974a22735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_190f0a885e0c2bb12fb56751f35b5ad7.setIcon(icon_f5915e558766d95ab1cc9a7974a22735);
+        
+    
+        var popup_b0306b7a797619b2fadda0530078b196 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3495db27b7adb50f5502b24ecaffd642 = $(`<div id="html_3495db27b7adb50f5502b24ecaffd642" style="width: 100.0%; height: 100.0%;"><b>River Dee Path (Duthie Park start)</b><br>Flat riverside trail</div>`)[0];
+            popup_b0306b7a797619b2fadda0530078b196.setContent(html_3495db27b7adb50f5502b24ecaffd642);
+        
+
+        marker_190f0a885e0c2bb12fb56751f35b5ad7.bindPopup(popup_b0306b7a797619b2fadda0530078b196)
+        ;
+
+        
+    
+    
+            var marker_2be5e88ef3e6fbcb91f3fa7e0efa6426 = L.marker(
+                [57.1753, -2.101],
+                {}
+            ).addTo(map_dba53caf9c40f5134cbd9207c2d7a7fe);
+        
+    
+            var icon_998f9a58f5a28749d74f175316cd4632 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "tree-conifer", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2be5e88ef3e6fbcb91f3fa7e0efa6426.setIcon(icon_998f9a58f5a28749d74f175316cd4632);
+        
+    
+        var popup_7d358a946bfa0ce5e4d6c3604bdc1849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96260b464a6f01c8fd2bb23d017af224 = $(`<div id="html_96260b464a6f01c8fd2bb23d017af224" style="width: 100.0%; height: 100.0%;"><b>River Don Path (Seaton Park)</b><br>Riverside nature walk</div>`)[0];
+            popup_7d358a946bfa0ce5e4d6c3604bdc1849.setContent(html_96260b464a6f01c8fd2bb23d017af224);
+        
+
+        marker_2be5e88ef3e6fbcb91f3fa7e0efa6426.bindPopup(popup_7d358a946bfa0ce5e4d6c3604bdc1849)
+        ;
+
+        
+    
+</script>
+</html>
